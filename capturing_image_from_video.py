@@ -24,3 +24,13 @@ while (cap.isOpened()):
 cap.release()
 out.release()
 cv.destroyAllWindows()
+
+# set some properties to our video with
+# cap.set()
+# properties have numbers eg cv.CAP_PROP_FRAME_WIDTH number is 3
+# cv.CAP_PROP_FRAME_HEIGHT is 4 
+
+# change resolution of display
+# cap.set(3, 1280)
+# cap.set(4, 720)
+
