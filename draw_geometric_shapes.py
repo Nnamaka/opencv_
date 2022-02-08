@@ -22,7 +22,8 @@ img = cv.line(img,(0,0),(255,255), (255,0,0), 5)
 # functions cv2.rectangel(), cv2.arrowedLine(), cv2.circle()
 
 # to puttext, we use a methon called put text
-# cv2.putText(img, 'the text',...)
+# font = cv2.FONT_HERSHEY_SIMPLEX
+# img = cv2.putText(img, 'the text', font,...)
 
 cv.imshow('image',img)
 
