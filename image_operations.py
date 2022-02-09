@@ -20,12 +20,15 @@ img[273:333, 100:160] = ball
 #cv.destroyAllWindows
 
 # adding two images ( images must be of the same size)
-img2 = cv.imread('lena.jpg')
-img2 = cv.resize(img2, (512,512))
+#img2 = cv.imread('lena.jpg')
+#img2 = cv.resize(img2, (512,512))
 
-img = cv.resize(img, (512,512))
+#img = cv.resize(img, (512,512))
 
-result = cv.add(img, img2)
+#result = cv.add(img, img2)
+
+# you can use cv.addWeighted() for emphasis on a particular image
+
 
 cv.imshow('image', result )
 cv.waitKey(0)
